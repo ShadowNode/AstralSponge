@@ -1,0 +1,15 @@
+{
+    "required": false,
+    "minVersion": "0.5.7",
+    "package": "ca.shadownode.astralsponge.mixins",
+    "target": "@env(DEFAULT)",
+    "compatibilityLevel": "JAVA_8",
+    "refmap": "mixins.astralsponge.refmap.json",
+    "plugin": "org.spongepowered.common.mixin.plugin.CorePlugin",
+    "mixins": [
+        "MixinChunk"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
